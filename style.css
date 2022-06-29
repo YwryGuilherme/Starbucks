@@ -1,0 +1,100 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    padding: 20px 0;
+    height: 200px;
+}
+
+html,body{
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.logo{
+    width: 50%;
+}
+
+.menu{
+    padding-top: 30px;
+    width: 50%;
+    text-align: right;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+section.sobre{
+    position: relative;
+    height: calc(100% - 200px);
+}
+
+.bola-verde{
+    position: absolute;
+    bottom: -50%;
+    right: -25%;
+    width: 900px;
+    height: 1000px;
+    border-radius: 50%;
+
+    background-color: #017143;
+}
+
+.social-media{
+    position: absolute;
+    right: 360px;
+    top: 300px;
+}
+
+.social-media img{
+    display: block;
+    width: 20px;
+    margin: 20px 3px;
+}
+
+.Starbucks{
+    color: #017143;
+
+}
+
+.texto-sobre{
+    margin-top: 100px;
+
+}
+
+.texto-sobre h1{
+    font-size: 40px;
+}
+
+.texto-sobre p{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.texto-sobre button{
+    border: 0;
+    background-color: #017143;
+    color: aliceblue;
+    border-radius: 15px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    margin-top: 15px;
+}
